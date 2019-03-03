@@ -5,11 +5,11 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        arr = t
+        index = 0
         for alpha in s:
-            for idx, c in enumerate(arr):
+            for idx, c in enumerate(t[index:]):
                 if alpha == c:
-                    arr = arr[idx + 1:]
+                    index += idx + 1
                     break
             else:
                 return False

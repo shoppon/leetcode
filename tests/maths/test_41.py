@@ -1,9 +1,9 @@
 from unittest import TestCase
 
-from leetcode import lc_41
+from leetcode.math import lc_41
 
 
-class MyTC(TestCase):
+class Test41(TestCase):
     def test_input1(self):
         s = lc_41.Solution()
         self.assertEquals(3, s.firstMissingPositive([1, 2, 0]))

@@ -1,5 +1,5 @@
 from unittest import TestCase
-from leetcode import lc_50
+from leetcode.math import lc_50
 
 class Test50(TestCase):
     def test0(self):
